@@ -1,0 +1,272 @@
+[
+  {
+    "Comment_Date": "2024-03-15",
+    "Product_id": "GantPhone",
+    "Customer_id": "Abc73hY",
+    "Comments": "The **GantPhone** has an absolutely stellar battery life, lasting well over a day even with heavy use. The camera is also top-notch. Highly recommend!",
+    "Rating": 5,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-11-01",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "gH4PqRz",
+    "Comments": "**GizmoWatch** is severely lacking in third-party app support. It's a nice design, but the limited functionality makes it feel overpriced. Disappointed.",
+    "Rating": 2,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-07-22",
+    "Product_id": "CryoTablet",
+    "Customer_id": "KmLj9tW",
+    "Comments": "The display on the **CryoTablet** is beautiful and vibrant. It's great for media consumption. However, the stylus often disconnects, which is frustrating for productivity.",
+    "Rating": 3,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-01-29",
+    "Product_id": "GantPhone",
+    "Customer_id": "XyZ0aB2",
+    "Comments": "I've been using my **GantPhone** for a month now and it's fantastic. Performance is incredibly fast, and the in-hand feel is premium. Zero complaints!",
+    "Rating": 5,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-05-10",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "cDfE3gH",
+    "Comments": "It's an okay watch. It tracks steps and heart rate accurately. But the charging cable is proprietary and feels flimsy. A solid, but not exceptional, product.",
+    "Rating": 3,
+    "Location": "Region 4",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-09-05",
+    "Product_id": "CryoTablet",
+    "Customer_id": "9tQoWmN",
+    "Comments": "Absolutely terrible experience. The **CryoTablet** overheats constantly, even when just browsing. It also randomly crashes. I regret this purchase.",
+    "Rating": 1,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-04-18",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "lKjR7yT",
+    "Comments": "Works perfectly! I love the sleep tracking feature on the **GizmoWatch**. It's comfortable to wear and the interface is very intuitive. Five stars!",
+    "Rating": 5,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-12-08",
+    "Product_id": "GantPhone",
+    "Customer_id": "pAsD4fG",
+    "Comments": "The **GantPhone** is decent. Good screen quality and speed. The only minor issue is the speakers sound a bit tinny at max volume. Overall, a good phone.",
+    "Rating": 4,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-02-14",
+    "Product_id": "CryoTablet",
+    "Customer_id": "zXcV1bN",
+    "Comments": "The size and weight of the **CryoTablet** are perfect for travel. It handles my basic games and video streaming without a hitch. Very satisfied.",
+    "Rating": 4,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-06-30",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "jQmP5lA",
+    "Comments": "While the **GizmoWatch** looks stylish, the promised water resistance is clearly false. Mine failed after a light rain. A huge downside for a wearable.",
+    "Rating": 1,
+    "Location": "Region 4",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-08-12",
+    "Product_id": "GantPhone",
+    "Customer_id": "rTyu8iO",
+    "Comments": "Received my **GantPhone** yesterday. Setup was quick, and the display resolution is stunning. The best phone I've owned in years!",
+    "Rating": 5,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-10-25",
+    "Product_id": "CryoTablet",
+    "Customer_id": "aBcD1eF",
+    "Comments": "The system lag on the **CryoTablet** is unbearable when trying to multitask. It's fine for single-app use, but performance drops off quickly.",
+    "Rating": 2,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-03-01",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "QweR2tY",
+    "Comments": "The heart rate monitor on the **GizmoWatch** seems inconsistent compared to my professional equipment. It's okay for notifications, but not for serious fitness tracking.",
+    "Rating": 3,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-05-20",
+    "Product_id": "GantPhone",
+    "Customer_id": "Iop3kLz",
+    "Comments": "Dropped my **GantPhone** and the screen cracked way too easily. Durability is a serious concern. Otherwise, the phone works well.",
+    "Rating": 2,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-07-17",
+    "Product_id": "CryoTablet",
+    "Customer_id": "MnbV4cX",
+    "Comments": "Perfect for drawing! The pressure sensitivity on the **CryoTablet** combined with the large screen makes it a fantastic digital canvas. Worth every penny.",
+    "Rating": 5,
+    "Location": "Region 4",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-04-05",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "EdfG5hJ",
+    "Comments": "I only get about 18 hours of battery life, not the 24 advertised. It requires daily charging which is inconvenient, but I love the look of the **GizmoWatch**.",
+    "Rating": 3,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-01-01",
+    "Product_id": "GantPhone",
+    "Customer_id": "wErT6yU",
+    "Comments": "**GantPhone** customer support was excellent when I had a software issue. The phone itself is smooth and handles high-end games effortlessly.",
+    "Rating": 5,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-09-19",
+    "Product_id": "CryoTablet",
+    "Customer_id": "zXy7cBa",
+    "Comments": "I use the **CryoTablet** mainly for reading. It's light, and the anti-glare screen is excellent for long sessions. A simple, reliable device.",
+    "Rating": 4,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-11-28",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "jKlM8nO",
+    "Comments": "I regret buying the **GizmoWatch**. The proprietary software is buggy, and it frequently loses connection with my phone. Unreliable.",
+    "Rating": 1,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-02-20",
+    "Product_id": "CryoTablet",
+    "Customer_id": "pQrS9tU",
+    "Comments": "The sound quality is surprisingly good for a tablet. Great for movies. The operating system is standard, nothing groundbreaking.",
+    "Rating": 4,
+    "Location": "Region 4",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-06-03",
+    "Product_id": "GantPhone",
+    "Customer_id": "vWxy0z1",
+    "Comments": "The best camera performance in low light. I'm consistently amazed by the photos taken with my **GantPhone**. A truly flagship experience.",
+    "Rating": 5,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-10-14",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "GhIj2Kl",
+    "Comments": "It's fine. The features are adequate for the price, but the band started fraying after two months of wear. Not great build quality.",
+    "Rating": 3,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-08-01",
+    "Product_id": "CryoTablet",
+    "Customer_id": "MnOp3Qr",
+    "Comments": "I purchased the **CryoTablet** for school. The note-taking apps work perfectly, and it holds a charge all day. A powerful tool for students.",
+    "Rating": 4,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-05-28",
+    "Product_id": "GantPhone",
+    "Customer_id": "sTuV4wX",
+    "Comments": "The phone constantly freezes when opening social media apps. I have to restart it multiple times a day. Very frustrating performance.",
+    "Rating": 1,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-12-19",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "yZ1aB2c",
+    "Comments": "Love the aesthetic design and the quick-release straps. It's a gorgeous watch, but sometimes it takes a long time to sync data with my phone.",
+    "Rating": 3,
+    "Location": "Region 4",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-03-22",
+    "Product_id": "CryoTablet",
+    "Customer_id": "aBcD3eF",
+    "Comments": "Fantastic resolution for streaming video, but the internal storage is far too small. Had to buy a microSD card immediately.",
+    "Rating": 4,
+    "Location": "Region 1",
+    "Proximity_DC": "DC1"
+  },
+  {
+    "Comment_Date": "2024-07-07",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "gHiJ4kL",
+    "Comments": "The step counter is wildly inaccurate. I compared it to three other devices. The notifications work, which is the only reason it gets 2 stars.",
+    "Rating": 2,
+    "Location": "Region 3",
+    "Proximity_DC": "DC3"
+  },
+  {
+    "Comment_Date": "2024-04-10",
+    "Product_id": "GantPhone",
+    "Customer_id": "mNoP5qR",
+    "Comments": "The **GantPhone**'s new security features are amazing. Very responsive fingerprint sensor and facial recognition. Feeling very secure!",
+    "Rating": 5,
+    "Location": "Region 5",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-11-15",
+    "Product_id": "CryoTablet",
+    "Customer_id": "sTuV6wX",
+    "Comments": "Crashes on almost every graphic-intensive game I try to run. If you need it for anything beyond basic browsing, look elsewhere.",
+    "Rating": 1,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  },
+  {
+    "Comment_Date": "2024-09-25",
+    "Product_id": "GizmoWatch",
+    "Customer_id": "yZ7aB8c",
+    "Comments": "The design is very sleek and light. Great for running. Battery life is acceptable, but not easy to use.",
+    "Rating": 1,
+    "Location": "Region 2",
+    "Proximity_DC": "DC2"
+  }
+]
