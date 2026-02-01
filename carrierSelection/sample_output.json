@@ -1,0 +1,110 @@
+{
+  "metadata": {
+    "total_shipments": 5,
+    "total_estimated_cost": 62.45,
+    "processing_date": "2026-01-31 14:30:22",
+    "input_file": "shipments.csv",
+    "ollama_model": "llama2"
+  },
+  "summary": {
+    "carrier_breakdown": {
+      "USPS Priority": 2,
+      "UPS Ground": 1,
+      "FedEx Ground": 1,
+      "USPS First Class": 1
+    },
+    "source_breakdown": {
+      "Parcel Monkey": 2,
+      "netParcel": 2,
+      "Shippo": 1
+    }
+  },
+  "shipments": [
+    {
+      "Shipment_ID": "SHP001",
+      "Ship_From": "10001",
+      "Ship_To": "90210",
+      "Parcel_Weight": 5.5,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 15.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 14.2,
+          "source": "Shippo"
+        },
+        {
+          "carrier": "USPS Priority",
+          "cost": 13.1,
+          "source": "netParcel"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "{\n  \"all_quotes\": [\n    {\"carrier\": \"USPS Priority\", \"cost\": 12.50, \"source\": \"Parcel Monkey\"},\n    {\"carrier\": \"UPS Ground\", \"cost\": 15.75, \"source\": \"netParcel\"},\n    {\"carrier\": \"FedEx Ground\", \"cost\": 14.20, \"source\": \"Shippo\"},\n    {\"carrier\": \"USPS Priority\", \"cost\": 13.10, \"source\": \"netParcel\"}\n  ],\n  \"lowest_cost_option\": {\n    \"carrier\": \"USPS Priority\",\n    \"cost\": 12.50,\n    \"source\": \"Parcel Monkey\"\n  }\n}"
+    },
+    {
+      "Shipment_ID": "SHP002",
+      "Ship_From": "60601",
+      "Ship_To": "33101",
+      "Parcel_Weight": 12.0,
+      "All_Carrier_Options": [
+        {
+          "carrier": "UPS Ground",
+          "cost": 18.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 19.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "USPS Priority",
+          "cost": 22.3,
+          "source": "Shippo"
+        }
+      ],
+      "Lowest_Cost_Carrier": "UPS Ground",
+      "Lowest_Cost": 18.75,
+      "Lowest_Cost_Source": "netParcel",
+      "LLM_Raw_Response": "{\n  \"all_quotes\": [\n    {\"carrier\": \"UPS Ground\", \"cost\": 18.75, \"source\": \"netParcel\"},\n    {\"carrier\": \"FedEx Ground\", \"cost\": 19.50, \"source\": \"Parcel Monkey\"},\n    {\"carrier\": \"USPS Priority\", \"cost\": 22.30, \"source\": \"Shippo\"}\n  ],\n  \"lowest_cost_option\": {\n    \"carrier\": \"UPS Ground\",\n    \"cost\": 18.75,\n    \"source\": \"netParcel\"\n  }\n}"
+    },
+    {
+      "Shipment_ID": "SHP003",
+      "Ship_From": "94102",
+      "Ship_To": "02108",
+      "Parcel_Weight": 3.2,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS First Class",
+          "cost": 9.8,
+          "source": "Shippo"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 11.9,
+          "source": "netParcel"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS First Class",
+      "Lowest_Cost": 9.8,
+      "Lowest_Cost_Source": "Shippo",
+      "LLM_Raw_Response": "{\n  \"all_quotes\": [\n    {\"carrier\": \"USPS First Class\", \"cost\": 9.80, \"source\": \"Shippo\"},\n    {\"carrier\": \"UPS Ground\", \"cost\": 12.50, \"source\": \"Parcel Monkey\"},\n    {\"carrier\": \"FedEx Ground\", \"cost\": 11.90, \"source\": \"netParcel\"}\n  ],\n  \"lowest_cost_option\": {\n    \"carrier\": \"USPS First Class\",\n    \"cost\": 9.80,\n    \"source\": \"Shippo\"\n  }\n}"
+    }
+  ]
+}

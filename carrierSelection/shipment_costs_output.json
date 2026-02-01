@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "total_shipments": 5,
+    "total_estimated_cost": 62.5,
+    "processing_date": "2026-01-31 19:29:47",
+    "input_file": "shipments.csv",
+    "ollama_model": "llama2"
+  },
+  "summary": {
+    "carrier_breakdown": {
+      "USPS Priority": 5
+    },
+    "source_breakdown": {
+      "Parcel Monkey": 5
+    }
+  },
+  "shipments": [
+    {
+      "Shipment_ID": "SHP001",
+      "Ship_From": "10001",
+      "Ship_To": "90210",
+      "Parcel_Weight": 5.5,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 15.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 13.2,
+          "source": "Shippo"
+        },
+        {
+          "carrier": "DHL Ground",
+          "cost": 14.5,
+          "source": "Parcel Monkey"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "{\n    \"all_quotes\": [\n        {\n            \"carrier\": \"USPS Priority\",\n            \"cost\": 12.50,\n            \"source\": \"Parcel Monkey\"\n        },\n        {\n            \"carrier\": \"UPS Ground\",\n            \"cost\": 15.75,\n            \"source\": \"netParcel\"\n        },\n        {\n            \"carrier\": \"FedEx Ground\",\n            \"cost\": 13.20,\n            \"source\": \"Shippo\"\n        },\n        {\n            \"carrier\": \"DHL Ground\",\n            \"cost\": 14.50,\n            \"source\": \"Parcel Monkey\"\n        }\n    ],\n    \"lowest_cost_option\": {\n        \"carrier\": \"USPS Priority\",\n        \"cost\": 12.50,\n        \"source\": \"Parcel Monkey\"\n    }\n}"
+    },
+    {
+      "Shipment_ID": "SHP002",
+      "Ship_From": "60601",
+      "Ship_To": "33101",
+      "Parcel_Weight": 12.0,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 15.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 13.2,
+          "source": "Shippo"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "Sure, I can help you with that. Here's the shipping cost analysis for a parcel with the details provided:\n\n{\n    \"all_quotes\": [\n        {\n            \"carrier\": \"USPS Priority\",\n            \"cost\": 12.50,\n            \"source\": \"Parcel Monkey\"\n        },\n        {\n            \"carrier\": \"UPS Ground\",\n            \"cost\": 15.75,\n            \"source\": \"netParcel\"\n        },\n        {\n            \"carrier\": \"FedEx Ground\",\n            \"cost\": 13.20,\n            \"source\": \"Shippo\"\n        }\n    ],\n    \"lowest_cost_option\": {\n        \"carrier\": \"USPS Priority\",\n        \"cost\": 12.50,\n        \"source\": \"Parcel Monkey\"\n    }\n}\n\nThe lowest cost option for shipping a parcel with the given details from Chicago, IL (60601) to Miami, FL (33101) is USPS Priority through Parcel Monkey at a cost of $12.50."
+    },
+    {
+      "Shipment_ID": "SHP003",
+      "Ship_From": "94102",
+      "Ship_To": "2108",
+      "Parcel_Weight": 3.2,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 14.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 13.2,
+          "source": "Shippo"
+        },
+        {
+          "carrier": "DHL Ground",
+          "cost": 14.5,
+          "source": "Parcel Monkey"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "{\n    \"all_quotes\": [\n        {\n            \"carrier\": \"USPS Priority\",\n            \"cost\": 12.50,\n            \"source\": \"Parcel Monkey\"\n        },\n        {\n            \"carrier\": \"UPS Ground\",\n            \"cost\": 14.75,\n            \"source\": \"netParcel\"\n        },\n        {\n            \"carrier\": \"FedEx Ground\",\n            \"cost\": 13.20,\n            \"source\": \"Shippo\"\n        },\n        {\n            \"carrier\": \"DHL Ground\",\n            \"cost\": 14.50,\n            \"source\": \"Parcel Monkey\"\n        }\n    ],\n    \"lowest_cost_option\": {\n        \"carrier\": \"USPS Priority\",\n        \"cost\": 12.50,\n        \"source\": \"Parcel Monkey\"\n    }\n}"
+    },
+    {
+      "Shipment_ID": "SHP004",
+      "Ship_From": "75201",
+      "Ship_To": "98101",
+      "Parcel_Weight": 8.7,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 14.95,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 13.7,
+          "source": "Shippo"
+        },
+        {
+          "carrier": "DHL Ground",
+          "cost": 14.25,
+          "source": "Parcel Monkey"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "{\n    \"all_quotes\": [\n        {\n            \"carrier\": \"USPS Priority\",\n            \"cost\": 12.50,\n            \"source\": \"Parcel Monkey\"\n        },\n        {\n            \"carrier\": \"UPS Ground\",\n            \"cost\": 14.95,\n            \"source\": \"netParcel\"\n        },\n        {\n            \"carrier\": \"FedEx Ground\",\n            \"cost\": 13.70,\n            \"source\": \"Shippo\"\n        },\n        {\n            \"carrier\": \"DHL Ground\",\n            \"cost\": 14.25,\n            \"source\": \"Parcel Monkey\"\n        }\n    ],\n    \"lowest_cost_option\": {\n        \"carrier\": \"USPS Priority\",\n        \"cost\": 12.50,\n        \"source\": \"Parcel Monkey\"\n    }\n}"
+    },
+    {
+      "Shipment_ID": "SHP005",
+      "Ship_From": "30301",
+      "Ship_To": "85001",
+      "Parcel_Weight": 15.3,
+      "All_Carrier_Options": [
+        {
+          "carrier": "USPS Priority",
+          "cost": 12.5,
+          "source": "Parcel Monkey"
+        },
+        {
+          "carrier": "UPS Ground",
+          "cost": 15.75,
+          "source": "netParcel"
+        },
+        {
+          "carrier": "FedEx Ground",
+          "cost": 13.2,
+          "source": "Shippo"
+        }
+      ],
+      "Lowest_Cost_Carrier": "USPS Priority",
+      "Lowest_Cost": 12.5,
+      "Lowest_Cost_Source": "Parcel Monkey",
+      "LLM_Raw_Response": "Sure, I'd be happy to help you with that! Here is the shipping cost analysis for a parcel with the given details:\n\n{\n    \"all_quotes\": [\n        {\n            \"carrier\": \"USPS Priority\",\n            \"cost\": 12.50,\n            \"source\": \"Parcel Monkey\"\n        },\n        {\n            \"carrier\": \"UPS Ground\",\n            \"cost\": 15.75,\n            \"source\": \"netParcel\"\n        },\n        {\n            \"carrier\": \"FedEx Ground\",\n            \"cost\": 13.20,\n            \"source\": \"Shippo\"\n        }\n    ],\n    \"lowest_cost_option\": {\n        \"carrier\": \"USPS Priority\",\n        \"cost\": 12.50,\n        \"source\": \"Parcel Monkey\"\n    }\n}\n\nThe lowest cost option for shipping a parcel weighing 15.3 lbs from zip code 30301 to zip code 85001 is USPS Priority with a cost of $12.50, which is provided by Parcel Monkey."
+    }
+  ]
+}
