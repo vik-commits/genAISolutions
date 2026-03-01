@@ -1,0 +1,19 @@
+Columns,Column_metadata
+unique_id,Unique identifer for the rows
+product_id,Unique identifier for the product
+product_name,Product Name
+product_type,Product Type
+product_measurements,Product Measurements
+product_description,Product Description
+main_category,Product Category
+sub_category,Product Subcategory under the Product Category field
+product_rating,Product ratings out of 5
+product_rating_count,Number of Product reviews receivd for determining Product Ratings
+badge,Badge for Product
+online_sellable,Flag that stores whether a product can be sold online or not
+url,Product URL page
+price,Price of the Product in the Country where the product is sold. The Currency field will help define this.
+currency,Currency of the Country where the product is sold
+discount,Is discount applied or not
+sale_tag,If the product has a Sale_tag or not 
+country,Country where the product is sold
