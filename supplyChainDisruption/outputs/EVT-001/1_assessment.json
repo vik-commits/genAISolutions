@@ -1,0 +1,28 @@
+{
+  "event_id": "EVT-001",
+  "shipment_id": "SHP-1001",
+  "supplier_id": "SUP-SZ01",
+  "supplier_name": "Shenzhen Precision Motion",
+  "event_type": "port_congestion",
+  "root_cause_summary": "Container held at Yantian port due to congestion; carrier rolled booking to next vessel.",
+  "affected_lines": [
+    {
+      "sku": "MTR-220",
+      "quantity_delayed": 1200,
+      "destination_warehouse": "DAL-DC",
+      "original_eta": "2026-10-06",
+      "new_eta": "2026-10-18",
+      "delay_days": 12
+    },
+    {
+      "sku": "CTL-500",
+      "quantity_delayed": 800,
+      "destination_warehouse": "DAL-DC",
+      "original_eta": "2026-10-06",
+      "new_eta": "2026-10-18",
+      "delay_days": 12
+    }
+  ],
+  "confidence_in_new_eta": "low",
+  "initial_severity": "high"
+}

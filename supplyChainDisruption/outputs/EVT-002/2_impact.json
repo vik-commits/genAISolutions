@@ -1,0 +1,60 @@
+{
+  "event_id": "EVT-002",
+  "sku_impacts": [
+    {
+      "sku": "BRG-310",
+      "warehouse": "CHI-DC",
+      "projected_stockout_date": "2026-10-13",
+      "units_needed_for_zero_late": 1300,
+      "needed_by": "2026-10-09"
+    }
+  ],
+  "at_risk_orders": [
+    {
+      "order_id": "SO-9012",
+      "customer": "Heartland Ag Equipment",
+      "customer_tier": "A",
+      "sku": "BRG-310",
+      "quantity": 600,
+      "due_date": "2026-10-09",
+      "projected_ship_date": "2026-10-20",
+      "additional_days_late": 11,
+      "revenue_at_risk": 7800.0,
+      "penalty_exposure": 4400.0
+    },
+    {
+      "order_id": "SO-9013",
+      "customer": "Midwest Pumps",
+      "customer_tier": "C",
+      "sku": "BRG-310",
+      "quantity": 500,
+      "due_date": "2026-10-13",
+      "projected_ship_date": "2026-10-20",
+      "additional_days_late": 7,
+      "revenue_at_risk": 5500.0,
+      "penalty_exposure": 0.0
+    },
+    {
+      "order_id": "SO-9014",
+      "customer": "Heartland Ag Equipment",
+      "customer_tier": "A",
+      "sku": "BRG-310",
+      "quantity": 700,
+      "due_date": "2026-10-17",
+      "projected_ship_date": "2026-10-25",
+      "additional_days_late": 8,
+      "revenue_at_risk": 9100.0,
+      "penalty_exposure": 3200.0
+    }
+  ],
+  "total_revenue_at_risk": 22400.0,
+  "total_penalty_exposure": 7600.0,
+  "overall_severity": "critical",
+  "key_findings": [
+    "Two Tier A customer orders from Heartland Ag Equipment are at risk: SO-9012 (11 days late, $4,400 penalty exposure) and SO-9014 (8 days late, $3,200 penalty exposure), triggering critical severity.",
+    "CHI-DC will stockout on 2026-10-13, four days before the delayed shipment arrives on 2026-10-25, creating a 12-day inventory gap with only 900 units on hand against 70 units/day demand.",
+    "1,300 units are needed by 2026-10-09 to prevent all three at-risk orders from becoming late; this must arrive before the safety stock threshold is breached on 2026-10-09.",
+    "Total exposure is $22,400 in revenue at risk and $7,600 in penalty exposure across three orders; Heartland Ag Equipment accounts for $16,900 revenue and $7,600 penalty exposure.",
+    "Order SO-9011 (Tier B, 400 units, due 2026-10-03) ships on time and is not at risk; the disruption begins impacting orders due on or after 2026-10-09."
+  ]
+}

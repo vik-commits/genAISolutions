@@ -1,0 +1,9 @@
+sku,description,warehouse,on_hand,safety_stock,avg_daily_demand,unit_weight_kg
+MTR-220,Servo motor 220W,DAL-DC,300,150,45,2.4
+MTR-220,Servo motor 220W,CHI-DC,650,200,25,2.4
+MTR-220,Servo motor 220W,ATL-DC,180,100,15,2.4
+CTL-500,Motion controller board,DAL-DC,500,100,30,0.6
+CTL-500,Motion controller board,CHI-DC,220,80,12,0.6
+BRG-310,Precision bearing 310,CHI-DC,900,300,70,0.35
+BRG-310,Precision bearing 310,DAL-DC,1500,400,40,0.35
+BRG-310,Precision bearing 310,ATL-DC,600,200,20,0.35

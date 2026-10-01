@@ -1,0 +1,7 @@
+from_warehouse,to_warehouse,transit_days,cost_per_unit
+CHI-DC,DAL-DC,2,1.10
+ATL-DC,DAL-DC,2,1.25
+DAL-DC,CHI-DC,2,1.10
+ATL-DC,CHI-DC,2,1.30
+DAL-DC,ATL-DC,2,1.25
+CHI-DC,ATL-DC,2,1.30

@@ -1,0 +1,233 @@
+{
+  "event_id": "EVT-001",
+  "options": [
+    {
+      "option_id": "OPT-1",
+      "option_type": "dc_transfer",
+      "sku": "MTR-220",
+      "description": "Transfer 290 units from CHI-DC to DAL-DC, arriving 2026-10-02",
+      "quantity": 290,
+      "source": "CHI-DC",
+      "arrival_date": "2026-10-02",
+      "incremental_cost": 319.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004"
+      ],
+      "orders_still_late": [
+        "SO-9005"
+      ],
+      "risks": [
+        "SO-9005 (Tier A, Meridian Medical) remains 4 days late with $4,800 penalty exposure; does not fully close the gap"
+      ],
+      "complies_with_rules": false
+    },
+    {
+      "option_id": "OPT-2",
+      "option_type": "dc_transfer",
+      "sku": "MTR-220",
+      "description": "Transfer 290 units from CHI-DC and 80 units from ATL-DC to DAL-DC, both arriving 2026-10-02",
+      "quantity": 370,
+      "source": "CHI-DC + ATL-DC",
+      "arrival_date": "2026-10-02",
+      "incremental_cost": 419.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004"
+      ],
+      "orders_still_late": [
+        "SO-9005"
+      ],
+      "risks": [
+        "SO-9005 (Tier A, Meridian Medical) remains 4 days late with $4,800 penalty exposure; does not fully close the gap"
+      ],
+      "complies_with_rules": false
+    },
+    {
+      "option_id": "OPT-3",
+      "option_type": "alternate_supplier",
+      "sku": "MTR-220",
+      "description": "Purchase 510 units from approved supplier SUP-MX02 (Monterrey Motores), arriving 2026-10-09",
+      "quantity": 510,
+      "source": "SUP-MX02",
+      "arrival_date": "2026-10-09",
+      "incremental_cost": 6630.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004",
+        "SO-9005"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Supplier reliability score 0.93; lead time 9 days is tight but meets requirement"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-4",
+      "option_type": "expedite_freight",
+      "sku": "MTR-220",
+      "description": "Expedite 510 units via air standard freight from existing inventory, arriving 2026-10-07",
+      "quantity": 510,
+      "source": "Air Standard",
+      "arrival_date": "2026-10-07",
+      "incremental_cost": 8323.2,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004",
+        "SO-9005"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Requires goods to be ready to ship from supplier; air freight cost exceeds $8,000 but protects Tier A orders and avoids $9,300 penalty exposure"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-5",
+      "option_type": "expedite_freight",
+      "sku": "MTR-220",
+      "description": "Expedite 510 units via air express freight from existing inventory, arriving 2026-10-04",
+      "quantity": 510,
+      "source": "Air Express",
+      "arrival_date": "2026-10-04",
+      "incremental_cost": 14076.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004",
+        "SO-9005"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Highest cost option at $14,076; requires VP of Supply Chain approval due to cost exceeding $10,000; goods must be ready to ship"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-6",
+      "option_type": "other",
+      "sku": "MTR-220",
+      "description": "Combine DC transfer from CHI-DC (290 units, 2026-10-02) with alternate supplier SUP-MX02 (220 units, 2026-10-09)",
+      "quantity": 510,
+      "source": "CHI-DC + SUP-MX02",
+      "arrival_date": "2026-10-02 / 2026-10-09",
+      "incremental_cost": 18799.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004",
+        "SO-9005"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Total cost $18,799 requires VP of Supply Chain approval; combines two sources increasing complexity"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-7",
+      "option_type": "other",
+      "sku": "MTR-220",
+      "description": "Combine DC transfer from CHI-DC (290 units, 2026-10-02) with partial expedite freight (220 units air standard, 2026-10-07)",
+      "quantity": 510,
+      "source": "CHI-DC + Air Standard",
+      "arrival_date": "2026-10-02 / 2026-10-07",
+      "incremental_cost": 4000.0,
+      "orders_protected": [
+        "SO-9003",
+        "SO-9004",
+        "SO-9005"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Partial air freight cost estimated at $3,681 (220 units); combines transfer and expedite; requires operations manager approval"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-8",
+      "option_type": "dc_transfer",
+      "sku": "CTL-500",
+      "description": "Transfer 100 units from CHI-DC to DAL-DC, arriving 2026-10-02",
+      "quantity": 100,
+      "source": "CHI-DC",
+      "arrival_date": "2026-10-02",
+      "incremental_cost": 154.0,
+      "orders_protected": [
+        "SO-9010"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Lowest cost option; CHI-DC retains 120 units above safety stock of 80"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-9",
+      "option_type": "alternate_supplier",
+      "sku": "CTL-500",
+      "description": "Purchase 100 units from approved supplier SUP-TW05 (Taichung Controls), arriving 2026-10-12",
+      "quantity": 100,
+      "source": "SUP-TW05",
+      "arrival_date": "2026-10-12",
+      "incremental_cost": 650.0,
+      "orders_protected": [
+        "SO-9010"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Arrival date 2026-10-12 is 4 days before SO-9010 due date of 2026-10-16; supplier reliability 0.95"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-10",
+      "option_type": "expedite_freight",
+      "sku": "CTL-500",
+      "description": "Expedite 100 units via air standard freight from existing inventory, arriving 2026-10-07",
+      "quantity": 100,
+      "source": "Air Standard",
+      "arrival_date": "2026-10-07",
+      "incremental_cost": 1500.0,
+      "orders_protected": [
+        "SO-9010"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Air freight cost $1,500 is higher than transfer option but protects Tier C order; requires goods to be ready to ship"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-11",
+      "option_type": "expedite_freight",
+      "sku": "CTL-500",
+      "description": "Expedite 100 units via air express freight from existing inventory, arriving 2026-10-04",
+      "quantity": 100,
+      "source": "Air Express",
+      "arrival_date": "2026-10-04",
+      "incremental_cost": 2500.0,
+      "orders_protected": [
+        "SO-9010"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Highest cost option for CTL-500 at $2,500; air express not justified for Tier C order with only 2 days of lateness"
+      ],
+      "complies_with_rules": false
+    }
+  ],
+  "notes": [
+    "Event EVT-001: Port congestion at Yantian delays SHP-1001 from 2026-10-06 to 2026-10-18 (12 days)",
+    "MTR-220: 510 units needed by 2026-10-09 to prevent all late orders; 1200 units delayed to DAL-DC",
+    "CTL-500: 100 units needed by 2026-10-16 to prevent all late orders; 800 units delayed to DAL-DC",
+    "Tier A customers at risk: Apex Robotics (SO-9003, $4,500 penalty) and Meridian Medical (SO-9005, $4,800 penalty)",
+    "Total penalty exposure: $9,300; total revenue at risk: $120,800",
+    "Recommended approach for MTR-220: OPT-3 (Alternate Supplier SUP-MX02, $6,630) protects all Tier A orders with single-source simplicity and 0.93 reliability",
+    "Alternative for MTR-220: OPT-4 (Air Standard, $8,323.20) if goods are ready to ship; OPT-7 (Transfer + Partial Air, $4,000) balances cost and risk",
+    "Recommended approach for CTL-500: OPT-8 (DC Transfer, $154) is lowest cost and fastest; OPT-9 (Alternate Supplier, $650) is backup if transfer unavailable",
+    "OPT-11 (CTL-500 Air Express) does not comply with rules: air freight not justified for Tier C order with only 2 days lateness",
+    "Combined optimal plan: OPT-3 (MTR-220, $6,630) + OPT-8 (CTL-500, $154) = $6,784 total, protects all Tier A orders, requires operations manager approval",
+    "All scenario tests confirm zero late orders when options are executed as specified",
+    "Confidence in new ETA is low; recommend monitoring port status and having backup expedite option ready"
+  ]
+}

@@ -1,0 +1,20 @@
+Subject: EVT-002 Quality Hold Update – New ETA and Daily Status Requirements
+
+Dear Chennai Bearing Works,
+
+We are writing regarding shipment SHP-1003 (5,000 units of BRG-310) currently on quality hold due to out-of-tolerance bore diameter in lot 7.
+
+Based on your rework assessment, we confirm the revised ETA of October 25, 2026 for this shipment. This date is critical to our supply chain and customer commitments.
+
+Effective immediately, we require the following:
+
+1. Daily Status Updates: Please provide a brief daily update (by 5:00 PM IST) on rework progress, including units completed, units remaining, and any issues identified. Continue through shipment release.
+
+2. Root Cause Details: Within 48 hours, submit a detailed root cause analysis covering: (a) how the bore diameter tolerance was missed in your QA process, (b) the specific rework procedure being used, (c) the confidence level in preventing recurrence, and (d) any additional inspection steps being added before release.
+
+3. PO Confirmation: No changes to the original PO terms are being made at this time. The 5,000-unit quantity, pricing, and delivery destination (CHI-DC) remain unchanged. We will confirm any adjustments once rework is complete.
+
+Please confirm receipt of this message and your ability to meet the October 25 ETA within 24 hours.
+
+Regards,
+Supply Chain Team

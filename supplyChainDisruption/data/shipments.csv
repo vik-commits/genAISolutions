@@ -1,0 +1,6 @@
+shipment_id,po_number,supplier_id,sku,quantity,origin,destination_warehouse,original_eta,mode,status
+SHP-1001,PO-55410,SUP-SZ01,MTR-220,1200,Shenzhen CN,DAL-DC,2026-10-06,ocean,in_transit
+SHP-1001,PO-55410,SUP-SZ01,CTL-500,800,Shenzhen CN,DAL-DC,2026-10-06,ocean,in_transit
+SHP-1002,PO-55522,SUP-SZ01,MTR-220,600,Shenzhen CN,DAL-DC,2026-10-27,ocean,in_transit
+SHP-1003,PO-55601,SUP-IN06,BRG-310,5000,Chennai IN,CHI-DC,2026-10-08,ocean,in_transit
+SHP-1004,PO-55650,SUP-US07,BRG-310,1000,Cleveland US,CHI-DC,2026-10-20,ground,in_transit

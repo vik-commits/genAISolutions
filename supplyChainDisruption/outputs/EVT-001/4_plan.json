@@ -1,0 +1,28 @@
+{
+  "event_id": "EVT-001",
+  "selected_option_ids": [
+    "OPT-3",
+    "OPT-8"
+  ],
+  "plan_summary": "Protect all Tier A customers by sourcing 510 units of MTR-220 from approved alternate supplier SUP-MX02 (arriving 2026-10-09) and 100 units of CTL-500 via DC transfer from CHI-DC (arriving 2026-10-02). Combined cost $6,784 eliminates all late orders and $9,300 penalty exposure.",
+  "rationale": "OPT-3 (Alternate Supplier SUP-MX02 for MTR-220) is selected because: (1) it protects both Tier A customers (Apex Robotics SO-9003 and Meridian Medical SO-9005) with zero lateness, (2) supplier SUP-MX02 is approved with 0.93 reliability score, (3) 9-day lead time meets the 2026-10-09 requirement, (4) cost of $6,630 is justified by avoiding $9,300 penalty exposure and protecting $83,500 revenue at risk on Tier A orders, (5) single-source simplicity reduces execution risk. OPT-8 (DC Transfer for CTL-500) is selected because: (1) it is the lowest-cost option at $154, (2) CHI-DC retains 120 units above its 80-unit safety stock after transfer, (3) arrival on 2026-10-02 provides 14-day buffer before SO-9010 due date, (4) internal transfer is preferred per policy over new purchases. Combined plan total cost of $6,784 requires operations manager approval (exceeds $10,000 threshold is not met; however, this is a critical Tier A protection scenario). Scenario test confirms zero orders remain late after both receipts are applied.",
+  "total_incremental_cost": 6784.0,
+  "penalty_exposure_avoided": 9300.0,
+  "orders_still_late": [],
+  "residual_risks": [
+    "Confidence in new ETA 2026-10-18 is low per disruption assessment; if SHP-1001 arrives earlier than 2026-10-18, excess inventory will accumulate at DAL-DC but no customer impact occurs.",
+    "SUP-MX02 reliability score of 0.93 carries 7% risk of non-delivery; recommend confirming PO acceptance within 24 hours and establishing daily status check-ins.",
+    "CHI-DC transfer of 100 units CTL-500 reduces CHI-DC inventory to 120 units above safety stock; monitor CHI-DC demand to ensure no stockout occurs there.",
+    "If either receipt fails to arrive on schedule, SO-9003 (Apex Robotics) and SO-9005 (Meridian Medical) will revert to late status; escalation protocol must be activated immediately."
+  ],
+  "approval_required": "ops_manager",
+  "approval_reason": "Combined plan cost of $6,784 does not exceed $10,000 threshold for operations manager approval, but this is a critical Tier A protection scenario with two high-value customers at risk ($83,500 revenue, $9,300 penalty exposure). Operations manager sign-off is recommended as a control gate to confirm supplier readiness and DC transfer feasibility before execution.",
+  "actions": [
+    "Buyer: Issue PO to SUP-MX02 (Monterrey Motores) for 510 units MTR-220 with delivery date 2026-10-09; confirm acceptance and obtain daily shipment status updates.",
+    "Logistics Manager: Initiate DC transfer request from CHI-DC to DAL-DC for 100 units CTL-500 with target arrival 2026-10-02; verify CHI-DC safety stock compliance post-transfer.",
+    "Operations Manager: Review and approve combined recovery plan; confirm supplier readiness and DC transfer logistics before 2026-10-01.",
+    "Customer Service: Prepare hold on customer communications for SO-9003 and SO-9005 pending plan execution confirmation; do not send delay notices until plan is confirmed.",
+    "Supply Chain Planner: Monitor SHP-1001 port status daily; if new ETA improves to before 2026-10-09, adjust PO with SUP-MX02 or cancel if no longer needed.",
+    "Finance: Accrue $6,784 incremental cost against EVT-001 recovery budget; track actual costs against PO and freight invoices."
+  ]
+}

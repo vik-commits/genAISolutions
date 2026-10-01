@@ -1,0 +1,29 @@
+{
+  "event_id": "EVT-002",
+  "selected_option_ids": [
+    "OPT-2"
+  ],
+  "plan_summary": "Transfer 800 units from DAL-DC and 400 units from ATL-DC to CHI-DC (both arriving 2026-10-02), combined with a purchase of 100 units from approved alternate supplier Cuyahoga Bearing Co (SUP-US07, arriving 2026-10-06). This delivers 1,300 units total by 2026-10-06, protecting all three at-risk orders (SO-9012, SO-9013, SO-9014) with zero days late and zero penalty exposure.",
+  "rationale": "OPT-2 is the lowest-cost option that fully protects both Tier A customer orders (SO-9012 and SO-9014 from Heartland Ag Equipment) while maintaining inventory safety stock at source DCs. The plan prioritizes internal transfers (1,200 units) before external purchase, as required by business rules, and uses only approved suppliers. Scenario test confirms all orders ship on time with zero remaining penalty exposure. Cost of $1,670 is $1,840 less than full alternate supplier option (OPT-3) and $32 less than air freight option (OPT-6), while avoiding the execution risk of supplier rework acceleration (OPT-4, OPT-5).",
+  "total_incremental_cost": 1670.0,
+  "penalty_exposure_avoided": 7600.0,
+  "orders_still_late": [],
+  "residual_risks": [
+    "DAL-DC transfer of 800 units must maintain safety stock of 400 units; current committed inventory is 300 units, leaving 800 units available for transfer. Confirm DAL-DC inventory position as of 2026-09-30 to ensure no competing demand.",
+    "ATL-DC transfer of 400 units must maintain safety stock of 200 units; current available inventory is 400 units. Confirm no competing demand or planned allocations.",
+    "Cuyahoga Bearing Co (SUP-US07) must deliver 100 units by 2026-10-06. Establish firm PO with expedited delivery commitment and daily tracking through 2026-10-05.",
+    "Quality hold on original 5,000-unit shipment (SHP-1003) remains unresolved; if rework fails or delays beyond 2026-10-25, CHI-DC will still receive delayed inventory. Monitor supplier rework progress weekly.",
+    "If either DC transfer fails to execute by 2026-10-02, SO-9012 (due 2026-10-09) will become late. Establish backup plan to expedite alternate supplier delivery to 2026-10-04 if transfers slip."
+  ],
+  "approval_required": "none",
+  "approval_reason": "Total incremental cost of $1,670 is below the $10,000 operations manager approval threshold. Plan complies with all business rules: protects all Tier A orders, uses only approved suppliers, prioritizes DC transfers before new purchases, and avoids air freight (not needed for this option). Sourcing manager sign-off is sufficient.",
+  "actions": [
+    "Sourcing Manager: Issue transfer request to DAL-DC for 800 units of BRG-310, target delivery to CHI-DC by 2026-10-02. Confirm safety stock of 400 units will be maintained post-transfer.",
+    "Sourcing Manager: Issue transfer request to ATL-DC for 400 units of BRG-310, target delivery to CHI-DC by 2026-10-02. Confirm safety stock of 200 units will be maintained post-transfer.",
+    "Buyer: Issue PO to Cuyahoga Bearing Co (SUP-US07) for 100 units of BRG-310 at $9.20/unit ($920 material cost + $270 premium = $1,190 total), with firm delivery commitment of 2026-10-06. Include expedited shipping and daily tracking requirement.",
+    "Supply Chain Planner: Establish daily monitoring of both DC transfers and alternate supplier PO through 2026-10-06. Escalate any delays >24 hours to Sourcing Manager and Buyer immediately.",
+    "Supply Chain Planner: Monitor Chennai Bearing Works (SUP-IN06) rework progress on original 5,000-unit shipment (SHP-1003) weekly. If rework completion slips beyond 2026-10-25, assess impact on CHI-DC inventory position post-2026-10-06 and adjust replenishment plans.",
+    "Customer Service: Confirm order acknowledgments for SO-9012, SO-9013, and SO-9014 with original due dates (2026-10-09, 2026-10-13, 2026-10-17 respectively). No customer notices required as all orders will ship on time.",
+    "Finance: Record $1,670 incremental cost against EVT-002 recovery plan (DC transfer labor $1,400 + alternate supplier premium $270). Allocate to supply chain contingency budget."
+  ]
+}

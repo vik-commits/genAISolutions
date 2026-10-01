@@ -1,0 +1,33 @@
+{
+  "event_id": "EVT-001",
+  "supplier_message_subject": "Urgent: Yantian Port Delay – Confirm New ETA and Daily Status Requirements for SHP-1001",
+  "supplier_message_body": "Dear Shenzhen Precision Motion,\n\nWe are writing regarding shipment SHP-1001, which was rolled to the next vessel due to Yantian port congestion. We understand the new estimated arrival is 2026-10-18.\n\nTo support our recovery planning, we need the following from you immediately:\n\n1. **Confirm New ETA**: Please confirm in writing that 2026-10-18 is the firm arrival date at the Dallas port of discharge, or provide the most current ETA if it has changed.\n\n2. **Daily Status Updates**: Beginning tomorrow, please provide daily shipment status updates via email until the container clears the port. Include current vessel location, port status, and any new delays or risks.\n\n3. **Root Cause Documentation**: Please provide a detailed summary of the port congestion event, including when the container was held, why the booking was rolled, and what actions you took to minimize delay.\n\n4. **PO Confirmation**: Our current PO for this shipment remains unchanged. Please confirm receipt of this message and your ability to meet the 2026-10-18 ETA.\n\nWe recognize this delay impacts our customers and our operations. Your prompt response and transparent communication are critical to our recovery plan. Please reply within 4 business hours.\n\nThank you for your immediate attention.\n\nBest regards,\nSupply Chain Team",
+  "customer_notices": [
+    {
+      "customer": "Apex Robotics",
+      "order_ids": [
+        "SO-9003"
+      ],
+      "subject": "Order SO-9003 Shipment Delay – Recovery Plan in Place",
+      "body": "Dear Apex Robotics,\n\nWe are writing to inform you that your order SO-9003 (200 units MTR-220, due 2026-10-09) will be delayed due to port congestion affecting our inbound shipment from Shenzhen Precision Motion.\n\nWe have activated a recovery plan to minimize impact to your operations. We are sourcing 510 units of MTR-220 from an approved alternate supplier with a confirmed delivery date of 2026-10-09 to Dallas. This will allow us to fulfill your order on the recovered schedule.\n\n**Projected Ship Date: 2026-10-18**\n\nWe understand the importance of on-time delivery to your business and are committed to resolving this situation. We will provide daily updates on the status of both the alternate supply and the original shipment. If circumstances change, we will contact you immediately.\n\nThank you for your partnership and patience as we work through this disruption.\n\nBest regards,\nSupply Chain Team"
+    },
+    {
+      "customer": "Meridian Medical",
+      "order_ids": [
+        "SO-9005"
+      ],
+      "subject": "Order SO-9005 Shipment Delay – Recovery Plan in Place",
+      "body": "Dear Meridian Medical,\n\nWe are writing to inform you that your order SO-9005 (250 units MTR-220, due 2026-10-14) will be delayed due to port congestion affecting our inbound shipment from Shenzhen Precision Motion.\n\nWe have activated a recovery plan to minimize impact to your operations. We are sourcing 510 units of MTR-220 from an approved alternate supplier with a confirmed delivery date of 2026-10-09 to Dallas. This will allow us to fulfill your order on the recovered schedule.\n\n**Projected Ship Date: 2026-10-18**\n\nWe understand the importance of on-time delivery to your business and are committed to resolving this situation. We will provide daily updates on the status of both the alternate supply and the original shipment. If circumstances change, we will contact you immediately.\n\nThank you for your partnership and patience as we work through this disruption.\n\nBest regards,\nSupply Chain Team"
+    },
+    {
+      "customer": "Brazos Packaging",
+      "order_ids": [
+        "SO-9004",
+        "SO-9010"
+      ],
+      "subject": "Order Updates – SO-9004 and SO-9010 Shipment Delays",
+      "body": "Dear Brazos Packaging,\n\nWe are writing to inform you that two of your orders are affected by port congestion impacting our inbound shipment from Shenzhen Precision Motion:\n\n• SO-9004 (90 units MTR-220, due 2026-10-12) – Projected Ship Date: 2026-10-18\n• SO-9010 (200 units CTL-500, due 2026-10-16) – Projected Ship Date: 2026-10-18\n\nWe are implementing a recovery plan that includes sourcing alternate supply and internal inventory transfers to minimize delays. Both orders are expected to ship on 2026-10-18.\n\nWe will provide updates as the situation develops. Please contact us if you have any questions or concerns.\n\nThank you for your business.\n\nBest regards,\nSupply Chain Team"
+    }
+  ],
+  "internal_summary_markdown": "# EVT-001 Disruption Summary\n\n## What Happened\nShipment SHP-1001 from Shenzhen Precision Motion was held at Yantian port due to congestion; carrier rolled booking to next vessel. Original ETA 2026-10-06 shifted to 2026-10-18 (12-day delay). Affected SKUs: MTR-220 (1,200 units) and CTL-500 (800 units) destined for DAL-DC.\n\n## Impact\n**Critical Severity**: Four at-risk orders totaling $120,800 revenue at risk and $9,300 penalty exposure. Two Tier A customers directly impacted:\n- Apex Robotics (SO-9003): 9 days late, $36K revenue, $4.5K penalty\n- Meridian Medical (SO-9005): 4 days late, $47.5K revenue, $4.8K penalty\n\n## Recovery Plan\n**Selected Options**: OPT-3 + OPT-8\n- **OPT-3**: Alternate supplier SUP-MX02 (Monterrey Motores) for 510 units MTR-220, arriving 2026-10-09. Cost: $6,630. Protects both Tier A customers.\n- **OPT-8**: DC transfer of 100 units CTL-500 from CHI-DC to DAL-DC, arriving 2026-10-02. Cost: $154. Protects SO-9010 (Brazos Packaging).\n\n**Result**: Zero orders remain late after plan execution. All penalty exposure avoided.\n\n## Cost & Approvals\n**Total Incremental Cost**: $6,784 | **Penalty Avoided**: $9,300 | **Net Benefit**: $2,516\n**Approval Required**: Operations Manager (critical Tier A protection scenario)\n\n## Open Risks\n1. Low confidence in 2026-10-18 ETA; daily supplier status checks mandatory\n2. SUP-MX02 reliability 0.93 (7% non-delivery risk); PO acceptance confirmation required within 24 hours\n3. CHI-DC inventory reduced to 120 units above safety stock post-transfer; monitor for secondary stockout\n4. Dual-receipt dependency: failure of either source reverts SO-9003 and SO-9005 to late status; escalation protocol required"
+}

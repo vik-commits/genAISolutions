@@ -1,0 +1,3 @@
+event_id,shipment_id,event_type,description,new_eta,reported_at,source
+EVT-001,SHP-1001,port_congestion,Container held at Yantian port due to congestion; carrier rolled booking to next vessel,2026-10-18,2026-09-30,carrier_edi
+EVT-002,SHP-1003,quality_hold,Supplier QA found out-of-tolerance bore diameter in lot 7; rework required before release,2026-10-25,2026-09-30,supplier_email

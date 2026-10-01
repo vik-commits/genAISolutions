@@ -1,0 +1,145 @@
+{
+  "event_id": "EVT-002",
+  "options": [
+    {
+      "option_id": "OPT-1",
+      "option_type": "dc_transfer",
+      "sku": "BRG-310",
+      "description": "Transfer 800 units from DAL-DC and 400 units from ATL-DC to CHI-DC, both arriving 2026-10-02. Protects SO-9012 and SO-9013 but leaves SO-9014 (Tier A) 3 days late.",
+      "quantity": 1200,
+      "source": "DAL-DC (800) + ATL-DC (400)",
+      "arrival_date": "2026-10-02",
+      "incremental_cost": 1400.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013"
+      ],
+      "orders_still_late": [
+        "SO-9014"
+      ],
+      "risks": [
+        "Tier A customer Heartland Ag Equipment order SO-9014 remains 3 days late with $1,200 penalty exposure",
+        "Violates business rule requiring Tier A order protection whenever feasible"
+      ],
+      "complies_with_rules": false
+    },
+    {
+      "option_id": "OPT-2",
+      "option_type": "dc_transfer",
+      "sku": "BRG-310",
+      "description": "Transfer 800 units from DAL-DC and 400 units from ATL-DC (arriving 2026-10-02), combined with 100 units from approved alternate supplier Cuyahoga Bearing Co (arriving 2026-10-06). Protects all three at-risk orders.",
+      "quantity": 1300,
+      "source": "DAL-DC (800) + ATL-DC (400) + SUP-US07 (100)",
+      "arrival_date": "2026-10-02 / 2026-10-06",
+      "incremental_cost": 1670.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013",
+        "SO-9014"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Requires coordination of two transfer shipments and one purchase order",
+        "Relies on supplier SUP-US07 meeting 2026-10-06 delivery commitment"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-3",
+      "option_type": "alternate_supplier",
+      "sku": "BRG-310",
+      "description": "Purchase full 1,300 units from approved alternate supplier Cuyahoga Bearing Co (SUP-US07) with 6-day lead time, arriving 2026-10-06. Protects all three at-risk orders.",
+      "quantity": 1300,
+      "source": "SUP-US07 (Cuyahoga Bearing Co)",
+      "arrival_date": "2026-10-06",
+      "incremental_cost": 3510.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013",
+        "SO-9014"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Higher cost than combined transfer + partial purchase option (OPT-2)",
+        "Requires new PO with alternate supplier; no existing relationship leverage"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-4",
+      "option_type": "other",
+      "sku": "BRG-310",
+      "description": "Negotiate expedited rework with Chennai Bearing Works (SUP-IN06) to complete quality hold and ship by 2026-10-04 (4-day acceleration from 2026-10-25). Protects all three at-risk orders with no incremental material cost.",
+      "quantity": 5000,
+      "source": "SUP-IN06 (Chennai Bearing Works) - expedited rework",
+      "arrival_date": "2026-10-04",
+      "incremental_cost": 0.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013",
+        "SO-9014"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Requires supplier commitment to aggressive rework schedule; medium confidence in original ETA suggests rework complexity",
+        "No guarantee supplier can accelerate without additional cost or quality risk",
+        "If rework fails or delays further, no backup supply is in place"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-5",
+      "option_type": "other",
+      "sku": "BRG-310",
+      "description": "Negotiate expedited rework with Chennai Bearing Works (SUP-IN06) to complete quality hold and ship by 2026-10-07 (18-day acceleration from 2026-10-25). Protects all three at-risk orders with no incremental material cost.",
+      "quantity": 5000,
+      "source": "SUP-IN06 (Chennai Bearing Works) - expedited rework",
+      "arrival_date": "2026-10-07",
+      "incremental_cost": 0.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013",
+        "SO-9014"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Requires supplier commitment to aggressive rework schedule; medium confidence in original ETA suggests rework complexity",
+        "No guarantee supplier can accelerate without additional cost or quality risk",
+        "If rework fails or delays further, no backup supply is in place"
+      ],
+      "complies_with_rules": true
+    },
+    {
+      "option_id": "OPT-6",
+      "option_type": "dc_transfer",
+      "sku": "BRG-310",
+      "description": "Transfer 800 units from DAL-DC and 400 units from ATL-DC (arriving 2026-10-02), combined with 100 units expedited by air standard freight from existing inventory (arriving 2026-10-07). Protects all three at-risk orders.",
+      "quantity": 1300,
+      "source": "DAL-DC (800) + ATL-DC (400) + air_standard (100)",
+      "arrival_date": "2026-10-02 / 2026-10-07",
+      "incremental_cost": 1638.0,
+      "orders_protected": [
+        "SO-9012",
+        "SO-9013",
+        "SO-9014"
+      ],
+      "orders_still_late": [],
+      "risks": [
+        "Requires 100 units to be available for air shipment from a DC with sufficient inventory",
+        "Air freight cost ($3,094 for 1,300 units, or ~$238 for 100 units) is justified only if it protects Tier A orders, which it does"
+      ],
+      "complies_with_rules": true
+    }
+  ],
+  "notes": [
+    "Event ID: EVT-002 | Shipment: SHP-1003 | SKU: BRG-310 | Disruption: Quality hold on 5,000 units from Chennai Bearing Works (SUP-IN06), delayed from 2026-10-08 to 2026-10-25 (17 days).",
+    "Impact: CHI-DC stockout on 2026-10-13; three at-risk orders totaling 1,800 units with $7,600 penalty exposure. Two Tier A orders (SO-9012, SO-9014) from Heartland Ag Equipment must be protected.",
+    "Inventory Position: CHI-DC has 900 units on hand (safety stock 300); DAL-DC has 1,500 units (safety stock 400, committed 300, transferable 800); ATL-DC has 600 units (safety stock 200, committed 0, transferable 400). Total transferable: 1,200 units.",
+    "Alternate Supplier: Cuyahoga Bearing Co (SUP-US07) is approved, can supply 1,300 units by 2026-10-06 at $9.20/unit (vs. $6.50 original cost, $3.70 premium per unit = $3,510 total premium).",
+    "Expedite Options: Air express freight ($5,232.50, arriving 2026-10-04) and air standard freight ($3,094, arriving 2026-10-07) are available but only justified if protecting Tier A orders or if penalty avoidance exceeds cost.",
+    "Recommended Path: OPT-2 (DC transfers + 100-unit alternate supplier purchase) or OPT-3 (full alternate supplier) offer lowest-cost compliance with all business rules. OPT-4 and OPT-5 (supplier rework acceleration) are zero-cost if achievable but carry medium-to-high execution risk given quality hold complexity.",
+    "Approval Requirements: OPT-2 ($1,670), OPT-3 ($3,510), and OPT-6 ($1,638) all fall below $10,000 threshold and require only sourcing manager approval. No VP-level approval needed.",
+    "Customer Communication: If OPT-1 is selected, Heartland Ag Equipment (Tier A) must receive personalized notice that SO-9014 will ship 3 days late (2026-10-23 vs. due date 2026-10-17). All other options protect both Tier A orders and require only standard order confirmation updates.",
+    "Quality Hold Risk: Medium confidence in 2026-10-25 ETA due to rework complexity. If supplier cannot meet accelerated dates (OPT-4, OPT-5), fallback to OPT-2 or OPT-3 must be executed immediately. Recommend securing alternate supplier commitment in parallel as insurance."
+  ]
+}

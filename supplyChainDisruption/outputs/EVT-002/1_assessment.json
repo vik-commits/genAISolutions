@@ -1,0 +1,20 @@
+{
+  "event_id": "EVT-002",
+  "shipment_id": "SHP-1003",
+  "supplier_id": "SUP-IN06",
+  "supplier_name": "Chennai Bearing Works",
+  "event_type": "quality_hold",
+  "root_cause_summary": "Supplier QA identified out-of-tolerance bore diameter in lot 7; rework is required before release.",
+  "affected_lines": [
+    {
+      "sku": "BRG-310",
+      "quantity_delayed": 5000,
+      "destination_warehouse": "CHI-DC",
+      "original_eta": "2026-10-08",
+      "new_eta": "2026-10-25",
+      "delay_days": 17
+    }
+  ],
+  "confidence_in_new_eta": "medium",
+  "initial_severity": "high"
+}

@@ -1,0 +1,79 @@
+{
+  "event_id": "EVT-001",
+  "sku_impacts": [
+    {
+      "sku": "MTR-220",
+      "warehouse": "DAL-DC",
+      "projected_stockout_date": "2026-10-07",
+      "units_needed_for_zero_late": 510,
+      "needed_by": "2026-10-09"
+    },
+    {
+      "sku": "CTL-500",
+      "warehouse": "DAL-DC",
+      "projected_stockout_date": "2026-10-17",
+      "units_needed_for_zero_late": 100,
+      "needed_by": "2026-10-16"
+    }
+  ],
+  "at_risk_orders": [
+    {
+      "order_id": "SO-9003",
+      "customer": "Apex Robotics",
+      "customer_tier": "A",
+      "sku": "MTR-220",
+      "quantity": 200,
+      "due_date": "2026-10-09",
+      "projected_ship_date": "2026-10-18",
+      "additional_days_late": 9,
+      "revenue_at_risk": 36000.0,
+      "penalty_exposure": 4500.0
+    },
+    {
+      "order_id": "SO-9004",
+      "customer": "Brazos Packaging",
+      "customer_tier": "C",
+      "sku": "MTR-220",
+      "quantity": 90,
+      "due_date": "2026-10-12",
+      "projected_ship_date": "2026-10-18",
+      "additional_days_late": 6,
+      "revenue_at_risk": 15300.0,
+      "penalty_exposure": 0.0
+    },
+    {
+      "order_id": "SO-9005",
+      "customer": "Meridian Medical",
+      "customer_tier": "A",
+      "sku": "MTR-220",
+      "quantity": 250,
+      "due_date": "2026-10-14",
+      "projected_ship_date": "2026-10-18",
+      "additional_days_late": 4,
+      "revenue_at_risk": 47500.0,
+      "penalty_exposure": 4800.0
+    },
+    {
+      "order_id": "SO-9010",
+      "customer": "Brazos Packaging",
+      "customer_tier": "C",
+      "sku": "CTL-500",
+      "quantity": 200,
+      "due_date": "2026-10-16",
+      "projected_ship_date": "2026-10-18",
+      "additional_days_late": 2,
+      "revenue_at_risk": 22000.0,
+      "penalty_exposure": 0.0
+    }
+  ],
+  "total_revenue_at_risk": 120800.0,
+  "total_penalty_exposure": 9300.0,
+  "overall_severity": "critical",
+  "key_findings": [
+    "Tier A customer Apex Robotics (SO-9003) faces 9 days of lateness on MTR-220 with $4,500 penalty exposure and $36,000 revenue at risk.",
+    "Tier A customer Meridian Medical (SO-9005) faces 4 days of lateness on MTR-220 with $4,800 penalty exposure and $47,500 revenue at risk.",
+    "MTR-220 projected stockout at DAL-DC on 2026-10-07 requires 510 units by 2026-10-09 to prevent all late orders.",
+    "CTL-500 projected stockout at DAL-DC on 2026-10-17 requires 100 units by 2026-10-16 to prevent late orders.",
+    "Total penalty exposure of $9,300 and revenue at risk of $120,800 across 4 at-risk orders; two Tier A customers directly impacted."
+  ]
+}

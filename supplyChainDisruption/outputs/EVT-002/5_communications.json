@@ -1,0 +1,25 @@
+{
+  "event_id": "EVT-002",
+  "supplier_message_subject": "EVT-002 Quality Hold Update – New ETA and Daily Status Requirements",
+  "supplier_message_body": "Dear Chennai Bearing Works,\n\nWe are writing regarding shipment SHP-1003 (5,000 units of BRG-310) currently on quality hold due to out-of-tolerance bore diameter in lot 7.\n\nBased on your rework assessment, we confirm the revised ETA of October 25, 2026 for this shipment. This date is critical to our supply chain and customer commitments.\n\nEffective immediately, we require the following:\n\n1. Daily Status Updates: Please provide a brief daily update (by 5:00 PM IST) on rework progress, including units completed, units remaining, and any issues identified. Continue through shipment release.\n\n2. Root Cause Details: Within 48 hours, submit a detailed root cause analysis covering: (a) how the bore diameter tolerance was missed in your QA process, (b) the specific rework procedure being used, (c) the confidence level in preventing recurrence, and (d) any additional inspection steps being added before release.\n\n3. PO Confirmation: No changes to the original PO terms are being made at this time. The 5,000-unit quantity, pricing, and delivery destination (CHI-DC) remain unchanged. We will confirm any adjustments once rework is complete.\n\nPlease confirm receipt of this message and your ability to meet the October 25 ETA within 24 hours.\n\nRegards,\nSupply Chain Team",
+  "customer_notices": [
+    {
+      "customer": "Heartland Ag Equipment",
+      "order_ids": [
+        "SO-9012",
+        "SO-9014"
+      ],
+      "subject": "Order Update – SO-9012 and SO-9014 Shipment Confirmation",
+      "body": "Dear Heartland Ag Equipment,\n\nWe are writing to confirm the status of your orders SO-9012 (600 units, originally due October 9) and SO-9014 (700 units, originally due October 17) for bearing component BRG-310.\n\nA quality hold on our supplier's shipment has created a temporary delay in our inventory. We have implemented a recovery plan that includes transfers from our regional distribution centers and a supplemental purchase from an approved alternate supplier to ensure your orders ship on schedule.\n\nConfirmed Ship Dates:\n- SO-9012: October 20, 2026\n- SO-9014: October 25, 2026\n\nBoth orders will ship complete and on time. We are actively managing this situation and have taken steps to protect your delivery commitments. You will receive tracking information as soon as shipments are dispatched.\n\nThank you for your partnership. If you have any questions, please contact your account manager.\n\nRegards,\nSupply Chain Team"
+    },
+    {
+      "customer": "Midwest Pumps",
+      "order_ids": [
+        "SO-9013"
+      ],
+      "subject": "Order Update – SO-9013 Shipment Confirmation",
+      "body": "Dear Midwest Pumps,\n\nWe are writing to confirm the status of your order SO-9013 (500 units of bearing component BRG-310, originally due October 13).\n\nA temporary delay in our supplier's shipment has been addressed through our recovery plan, which includes inventory transfers and supplemental sourcing. Your order will ship on October 20, 2026.\n\nConfirmed Ship Date:\n- SO-9013: October 20, 2026\n\nYour order will ship complete. Tracking information will be provided upon dispatch.\n\nThank you for your business.\n\nRegards,\nSupply Chain Team"
+    }
+  ],
+  "internal_summary_markdown": "# EVT-002 Internal Summary – Quality Hold Recovery\n\n## What Happened\nChennai Bearing Works (SUP-IN06) identified out-of-tolerance bore diameter in lot 7 of shipment SHP-1003 (5,000 units BRG-310). Quality hold imposed; rework required before release. Original ETA October 8 → revised ETA October 25 (17-day delay).\n\n## Impact\n**Critical Severity**: CHI-DC stockout projected October 13; inventory gap of 12 days. Three at-risk orders totaling $22,400 revenue and $7,600 penalty exposure:\n- SO-9012 (Heartland Ag, Tier A): 600 units, 11 days late, $4,400 penalty\n- SO-9013 (Midwest Pumps, Tier C): 500 units, 7 days late, $0 penalty\n- SO-9014 (Heartland Ag, Tier A): 700 units, 8 days late, $3,200 penalty\n\n## Recovery Plan (OPT-2 Selected)\nTransfer 1,200 units from DAL-DC (800) and ATL-DC (400) arriving October 2, plus purchase 100 units from Cuyahoga Bearing Co (SUP-US07) arriving October 6. Total: 1,300 units by October 6 → all three orders protected, zero days late, zero penalty exposure.\n\n## Cost & Approvals\n**Incremental Cost**: $1,670 (DC transfer labor $1,400 + alternate supplier premium $270). Below $10,000 threshold; sourcing manager sign-off sufficient. No executive approval required.\n\n## Open Risks\n1. DAL-DC and ATL-DC transfers must execute by October 2; confirm no competing demand.\n2. Cuyahoga Bearing Co must deliver 100 units by October 6; establish daily tracking.\n3. Original shipment rework remains unresolved; monitor weekly for delays beyond October 25.\n4. If either DC transfer fails, activate backup expedite to alternate supplier by October 4."
+}
